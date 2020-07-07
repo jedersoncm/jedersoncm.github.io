@@ -4,23 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio Web Jederson Macedo</title>
+    <style>
+
+        body {
+            background-color:#a6ffa1;
+        }
+        #descrição {
+            font-family: sans-serif;
+        }
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            
+        }
+        .itemskill {
+            font-size: 1.4em;
+        }
+        .itemhabilidade {
+            font-size: 1.3em;
+        }
+
+    </style>
 </head>
 <body>
     
-    <a href="#Foto"> <h1>Jederson Carvalho Macedo</h1></a>
+    <h1>Jederson Carvalho Macedo</h1>
     <img src="https://avatars2.githubusercontent.com/u/61760676?s=460&u=ff9486c994ca01a47cab75a4e606b73db274a819&v=4" alt="Foto de Jederson." width=400px id="Foto" >
     <br>
-    <h4>Sobre mim</h4>
-    <p>
+    <h4 id="soremim">Sobre mim</h4>
+    <p id="descrição">
         Meu nome é <b>Jederson Macedo</b>, sou brasileiro, moro em Jacareí -SP, tenho 34 anos. <br>
         Professor de matemática e estudante de <i>desenvolvimento de software</i>.
     </p>
-    <h4>Habilidades</h4>
+    <h4 id="skills">Skills</h4>
     <ul>
-        <li>Ingles intermediário</li>
-        <li>Linguagem C</li>
-        <li><strong><a href="https://www.betrybe.com/" target="_blank"> Aprendendo HTML, CSS e JavaScript</a></strong></li>
+        <li class="itemskill">Inglês</li>
+        <li class="itemskill">Linguagem C</li>
+        <li class="itemskill">Shell Script</li>
+        <li class="itemskill"><strong><a href="https://www.betrybe.com/" target="_blank"> Aprendendo HTML, CSS e JavaScript</a></strong></li>
     </ul>
+    <h4 id="habilidades">Habilidades</h4>
+    <ul>
+        <li class="itemhabilidade">Pró atividade</li>
+        <li class="itemhabilidade">Organização</li>
+        <li class="itemhabilidade">Vontade de aprender</li>
+        <li class="itemhabilidade">Resoluçã de problemas</li>
+    </ul>
+
+    <p><a href="#Foto">Foto </a><a href="#sobremim">Sobre mim </a><a href="#skills">Skills </a><a href="#habilidades">Habilidades</a></p>
 
 </body>
 </html>
