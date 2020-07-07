@@ -7,14 +7,26 @@
     <style>
 
         body {
-            background-color:#a6ffa1;
+            background-color:whitesmoke;
+            margin:0px;
+            margin-top: 30px;
+            margin-left: 15px;
+            font-family: Montserrat, sans-serif;
         }
         #descrição {
             font-family: sans-serif;
         }
         h1 {
-            font-family: 'Times New Roman', Times, serif;
-            
+            text-align: center;
+            color:white;
+            background-color: black;
+            position: fixed;
+            top:0;
+            left:0;
+            right: 0;
+            margin-top: 0;
+            padding: 10px;
+        
         }
         .itemskill {
             font-size: 1.4em;
@@ -22,15 +34,37 @@
         .itemhabilidade {
             font-size: 1.3em;
         }
+        .foto {
+            border-radius: 30%;
+            position: fixed;
+            top: 65px;
+            right: 30px;
+            width: 300px;
+            z-index: 1;
+        }
+        h4 {
+            font-size: 20px;
+            text-align:center;
+            background-color: red;
+            width:150px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 50%;
+            border: 5px ridge black;
+                        
+        }
+        p {
+            z-index: 2;
+        }
 
     </style>
 </head>
 <body>
     
     <h1>Jederson Carvalho Macedo</h1>
-    <img src="https://avatars2.githubusercontent.com/u/61760676?s=460&u=ff9486c994ca01a47cab75a4e606b73db274a819&v=4" alt="Foto de Jederson." width=400px id="Foto" >
+    <img class="foto" src="https://avatars2.githubusercontent.com/u/61760676?s=460&u=ff9486c994ca01a47cab75a4e606b73db274a819&v=4" alt="Foto de Jederson." width=400px id="Foto" >
     <br>
-    <h4 id="soremim">Sobre mim</h4>
+    <h4 id="sobremim">Sobre mim</h4>
     <p id="descrição">
         Meu nome é <b>Jederson Macedo</b>, sou brasileiro, moro em Jacareí -SP, tenho 34 anos. <br>
         Professor de matemática e estudante de <i>desenvolvimento de software</i>.
@@ -47,7 +81,7 @@
         <li class="itemhabilidade">Pró atividade</li>
         <li class="itemhabilidade">Organização</li>
         <li class="itemhabilidade">Vontade de aprender</li>
-        <li class="itemhabilidade">Resoluçã de problemas</li>
+        <li class="itemhabilidade">Resolução de problemas</li>
     </ul>
 
     <p><a href="#Foto">Foto</a> <a href="#sobremim">Sobre mim</a> <a href="#skills">Skills</a> <a href="#habilidades">Habilidades</a></p>
