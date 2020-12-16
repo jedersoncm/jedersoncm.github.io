@@ -21,15 +21,15 @@
   },
   "scripts": {
     "cy": "cypress run",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "cy:open": "cypress open",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test-coverage": "react-scripts test --coverage --watchAll=false",
     "eject": "react-scripts eject",
-    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx"
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
   },
   "eslintConfig": {
     "extends": "react-app"
